@@ -6,5 +6,5 @@ export default defineConfig({
     cssCodeSplit: true,
     modulePreload: false,
   },
- base: '/vite-deploy-demo/'
+ base: '/ibn-tufail/'
 })
