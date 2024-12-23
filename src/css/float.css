@@ -1,0 +1,39 @@
+.float {
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-right: 30px;
+
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+
+}
+
+.float a button{
+    width: 60px;
+    aspect-ratio: 1/1;
+    background-color: white;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: all 100ms ease;
+}
+
+.float a button:hover {
+    box-shadow: 5px 5px black;
+    transform: translate(-5px, -5px);
+}
+
+@media only screen and (max-width: 768px){
+    .float {
+        display: none;
+    
+    }
+}

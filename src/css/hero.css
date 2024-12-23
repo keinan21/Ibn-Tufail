@@ -1,0 +1,80 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.hero__icon-pack {
+    display: flex;
+    margin-right: 15px;
+}
+
+.hero__icon-pack img{
+    height: 100px;
+    aspect-ratio: 1/1;
+}
+
+.spark {
+    transform: rotate(45deg);
+}
+
+.hero h1 {
+    font-family: main-bold;
+    font-size: 71px;
+    text-align: center;
+    color: black;
+    max-width: 720px;
+    line-height: 120%;
+}
+
+.hero h1 b {
+    color: var(--main);
+}
+
+.hero__circle {
+    position: relative;
+    height: 86px;
+    aspect-ratio: 1/1;
+}
+
+.hero__circle img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero .circle-1 {
+    transform: translate(7px, -7px);
+}
+
+.hero .circle-3 {
+    transform: translate(-7px, 7px);
+}
+
+.hero__triangle {
+    position: relative;
+    height: 86px;
+    aspect-ratio: 1/1;
+    rotate: -135deg;
+}
+
+.hero__triangle img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.triangle-1 {
+    transform: translate(-15px, 0px);
+}
+
+.triangle-3 {
+    transform: translate(-35px, 0px);
+}
+
+.spark {
+    margin-left: 20px;
+}
