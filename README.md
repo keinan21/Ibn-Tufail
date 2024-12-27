@@ -32,7 +32,7 @@ This portfolio is a digital ode to **Ibn Tufail**, the Andalusian polymath, phil
 ## 🌐 Usage
 
 This project is live and accessible through GitHub Pages. To view the portfolio, visit:  
-[**Ibn Tufail Portfolio**](https://keinan.github.io/ibn-tufail/)
+[**Ibn Tufail Portfolio**](https://keinan21.github.io/ibn-tufail/)
 
 ---
 
